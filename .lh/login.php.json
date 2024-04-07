@@ -1,0 +1,66 @@
+{
+    "sourceFile": "login.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1712451529018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712451548288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n   \r\n <div class=\"form-container\" style=\"background-image: url('wave.png');\" >\r\n \r\n \r\n-   \r\n+   //\r\n \r\n \r\n \r\n    <form action=\"\" method=\"post\"    style=\"background-image: url('bg1.png');\">\r\n"
+                },
+                {
+                    "date": 1712451557300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n   \r\n <div class=\"form-container\" style=\"background-image: url('wave.png');\" >\r\n \r\n \r\n-   //\r\n+   //create a list \r\n \r\n \r\n \r\n    <form action=\"\" method=\"post\"    style=\"background-image: url('bg1.png');\">\r\n"
+                },
+                {
+                    "date": 1712451567621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,12 +61,14 @@\n   \r\n <div class=\"form-container\" style=\"background-image: url('wave.png');\" >\r\n \r\n \r\n-   //create a list \r\n+   //create a list of users \r\n \r\n+   \r\n \r\n \r\n+\r\n    <form action=\"\" method=\"post\"    style=\"background-image: url('bg1.png');\">\r\n    <img src=\"images/user_image1.png\" alt=\"\">\r\n       <h3>login now</h3>\r\n     \r\n"
+                },
+                {
+                    "date": 1712451573274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,16 @@\n \r\n \r\n    //create a list of users \r\n \r\n-   \r\n+   <div class=\"list\">\r\n+      <h3>list of users</h3>\r\n+      <ul>\r\n+         <li>\r\n+            <span>email</span>\r\n+            <span>password</span>\r\n+            <span>user type</span>\r\n+            \r\n \r\n \r\n \r\n    <form action=\"\" method=\"post\"    style=\"background-image: url('bg1.png');\">\r\n"
+                },
+                {
+                    "date": 1712451585072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,21 +61,12 @@\n   \r\n <div class=\"form-container\" style=\"background-image: url('wave.png');\" >\r\n \r\n \r\n-   //create a list of users \r\n+   \r\n \r\n-   <div class=\"list\">\r\n-      <h3>list of users</h3>\r\n-      <ul>\r\n-         <li>\r\n-            <span>email</span>\r\n-            <span>password</span>\r\n-            <span>user type</span>\r\n-            \r\n \r\n \r\n-\r\n    <form action=\"\" method=\"post\"    style=\"background-image: url('bg1.png');\">\r\n    <img src=\"images/user_image1.png\" alt=\"\">\r\n       <h3>login now</h3>\r\n     \r\n"
+                },
+                {
+                    "date": 1712451656017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,11 @@\n   \r\n <div class=\"form-container\" style=\"background-image: url('wave.png');\" >\r\n \r\n \r\n-   \r\n+   <li>\r\n+      \r\n+   </li>\r\n \r\n \r\n \r\n    <form action=\"\" method=\"post\"    style=\"background-image: url('bg1.png');\">\r\n"
+                },
+                {
+                    "date": 1712451664098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,14 +61,15 @@\n   \r\n <div class=\"form-container\" style=\"background-image: url('wave.png');\" >\r\n \r\n \r\n-   <li>\r\n-      \r\n-   </li>\r\n+   <ul>\r\n \r\n+   \r\n+   </ul>\r\n \r\n \r\n+\r\n    <form action=\"\" method=\"post\"    style=\"background-image: url('bg1.png');\">\r\n    <img src=\"images/user_image1.png\" alt=\"\">\r\n       <h3>login now</h3>\r\n     \r\n"
+                },
+                {
+                    "date": 1712451670548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,11 @@\n \r\n \r\n    <ul>\r\n \r\n-   \r\n+      \r\n+\r\n+\r\n    </ul>\r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1712451682711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n \r\n \r\n    <ul>\r\n \r\n-      \r\n+      <li>email\r\n \r\n \r\n    </ul>\r\n \r\n"
+                },
+                {
+                    "date": 1712451690512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n \r\n \r\n    <ul>\r\n \r\n-      <li>email\r\n+      <li>email : <\r\n \r\n \r\n    </ul>\r\n \r\n"
+                },
+                {
+                    "date": 1712451697006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n \r\n \r\n    <ul>\r\n \r\n-      <li>email : <strong> <\r\n+      <li>email : <strong> </\r\n \r\n \r\n    </ul>\r\n \r\n"
+                },
+                {
+                    "date": 1712451982352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,9 +84,9 @@\n       <p>don't have an account? <a href=\"register_form.php\">register now</a></p>\r\n \r\n       <ul>\r\n \r\n-      <li>email : <strong> testeur@gmail.com  </strong</li>\r\n+      <li>email : <strong> testeur@gmail.com  </strong></li>\r\n       <li>password : <strong> alikamar </li>\r\n \r\n \r\n    </ul>\r\n"
+                }
+            ],
+            "date": 1712451529018,
+            "name": "Commit-0",
+            "content": "<?php\r\n\r\n@include 'config.php';\r\n\r\nsession_start();\r\n\r\n\r\n\r\nif(isset($_POST['submit'])){\r\n\r\n   \r\n   $email = mysqli_real_escape_string($conn, $_POST['email']);\r\n   $pass = md5($_POST['password']);   \r\n\r\n   $select = \" SELECT * FROM user_form WHERE   email = '$email' && password = '$pass' \";\r\n\r\n   $result = mysqli_query($conn, $select);\r\n\r\n   if(mysqli_num_rows($result) > 0){\r\n\r\n      $row = mysqli_fetch_array($result);\r\n\r\n      if($row['user_type'] == 'admin'){\r\n\r\n         $_SESSION['admin_name'] = $row['name'];\r\n         header('location:index.php');\r\n\r\n      }elseif($row['user_type'] == 'user'){\r\n\r\n         $_SESSION['user_name'] = $row['name'];\r\n         $_SESSION['user_id'] = $row[\"id\"];\r\n         header('location:user_page.php');\r\n\r\n      }\r\n     \r\n   }else{\r\n      $error[] = 'incorrect email or password!';\r\n   }\r\n\r\n};\r\n?>\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   \r\n   <title>login form</title>\r\n\r\n   <!-- custom css file link  -->\r\n   <link rel=\"stylesheet\" href=\"css/stile.css\">\r\n   <link rel=\"stylesheet\" href=\"style.css\">\r\n\r\n</head>\r\n<body  style=\"background-color: #eee\"  >\r\n\r\n<img src=\"images/Mon_projet-1.png\"  class=\"mylogologin\" alt=\"\" style=\"margin-left: 95%;margin-top: 8px  ; \"  width=\"35\" height=\"35\">\r\n\r\n  \r\n<div class=\"form-container\" style=\"background-image: url('wave.png');\" >\r\n\r\n\r\n   \r\n\r\n\r\n\r\n   <form action=\"\" method=\"post\"    style=\"background-image: url('bg1.png');\">\r\n   <img src=\"images/user_image1.png\" alt=\"\">\r\n      <h3>login now</h3>\r\n    \r\n      <?php\r\n      if(isset($error)){\r\n         foreach($error as $error){\r\n            echo '<span class=\"error-msg\">'.$error.'</span>';\r\n         };\r\n      };\r\n      ?>\r\n      <input type=\"email\" name=\"email\" required placeholder=\"enter your email\">\r\n      <input type=\"password\" name=\"password\" required placeholder=\"enter your password\">\r\n      <input type=\"submit\" name=\"submit\" value=\"login now\" class=\"form-btn\">\r\n      <p>don't have an account? <a href=\"register_form.php\">register now</a></p>\r\n   </form>\r\n\r\n   \r\n\r\n</div>\r\n\r\n\r\n</body>\r\n</html>"
+        }
+    ]
+}

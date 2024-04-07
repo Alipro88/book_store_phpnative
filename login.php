@@ -58,10 +58,12 @@ if(isset($_POST['submit'])){
 
 <img src="images/Mon_projet-1.png"  class="mylogologin" alt="" style="margin-left: 95%;margin-top: 8px  ; "  width="35" height="35">
 
+
   
 <div class="form-container" style="background-image: url('wave.png');" >
 
 
+   
 
 
 
@@ -80,7 +82,19 @@ if(isset($_POST['submit'])){
       <input type="password" name="password" required placeholder="enter your password">
       <input type="submit" name="submit" value="login now" class="form-btn">
       <p>don't have an account? <a href="register_form.php">register now</a></p>
+
+      <br>
+      <ul>
+         <h5>Guest login :</h5>
+
+      <p>Email    :    <strong> Guest@gmail.com  </strong></p>
+      <p>Password : <strong> guest123          </strong></p>
+
+
+   </ul>
    </form>
+
+
 
    
 
